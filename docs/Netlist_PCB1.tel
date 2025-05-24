@@ -1,0 +1,69 @@
+$PACKAGES
+'CAP-SMD_L3.2-W1.6-RD-C7171' ! 'CAP-SMD_L3.2-W1.6-RD-C7171' ! 10uF ; C2 C3 C5 
+'HDR-TH_2P-P2.54-V-M-4' ! 'HDR-TH_2P-P2.54-V-M-4' ! '{Value}' ; H5 H6 
+'HDR-TH_2P-P2.54-V-M' ! 'HDR-TH_2P-P2.54-V-M' ! '{Value}' ; H1 
+'HDR-TH_4P-P1.27-V-F' ! 'HDR-TH_4P-P1.27-V-F' ! '{Value}' ; H3 H4 
+'HDR-TH_5P-P2.54-H-M-W10.4' ! 'HDR-TH_5P-P2.54-H-M-W10.4' ! '{Value}' ; H2 
+,
+        'LED-ARRAY-SMD_4P-L1.00-W1.00-TL' ! 'LED-ARRAY-SMD_4P-L1.00-W1.00-TL' ! '{Value}' ,
+        ; LED2 
+'LED0805-R-RD' ! 'LED0805-R-RD' ! '{Value}' ; LED1 
+'LGA-12_L2.0-W2.0-P0.50-BL' ! 'LGA-12_L2.0-W2.0-P0.50-BL' ! '{Value}' ; U2 
+'MICRO-USB-SMD_MICROXNJ' ! 'MICRO-USB-SMD_MICROXNJ' ! '{Value}' ; USB1 
+,
+        'SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR' ! 'SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR' ! '{Value}' ,
+        ; Q1 Q2 Q3 
+,
+        'SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR' ! 'SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR' ! '{Value}' ,
+        ; D1 
+,
+        'SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR' ! 'SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR' ! '{Value}' ,
+        ; U3 
+,
+        'SSOP-20_L7.2-W5.3-P0.65-LS7.8-BL' ! 'SSOP-20_L7.2-W5.3-P0.65-LS7.8-BL' ! '{Value}' ,
+        ; U1 
+,
+        'SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0' ! 'SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0' ! '{Value}' ,
+        ; SW1 
+C0402 ! C0402 ! 100nF ; C4 C6 C7 
+C0402 ! C0402 ! 1uF ; C1 
+R0603 ! R0603 ! '10kΩ' ; R5 R8 R9 R10 R11 R12 
+R0603 ! R0603 ! '5.1kΩ' ; R6 R7 
+R0603 ! R0603 ! '560Ω' ; R1 R2 R3 
+R0805 ! R0805 ! '0Ω' ; R4 R13 R14 R15 
+$A_PROPERTIES
+$NETS
+'+3V3' ; C2.1 C4.2 C5.1 C6.2 C7.2 H2.2 R10.2 R11.2 R12.2 U1.1 U2.3 U2.7 U2.10 ,
+        U2.11 U3.5 
+'+5V' ; C3.1 D1.2 R5.2 R6.2 R7.2 USB1.1 
+'+VBAT' ; D1.1 H1.1 
+'+VIN' ; C1.2 D1.3 H4.1 H5.1 LED2.1 U3.1 
+'$1N1622' ; R7.1 R9.2 USB1.3 
+'$1N1629' ; R4.2 R6.1 R8.2 USB1.2 
+'$1N2153' ; R4.1 USB1.4 
+'$1N2157' ; USB1.5 
+'$1N2936' ; Q1.3 R3.1 
+'$1N2940' ; Q2.3 R2.1 
+'$1N2944' ; Q3.3 R1.1 
+'$1N4613' ; LED1.1 R5.1 
+'I2C1_SCL' ; H3.2 R11.1 U1.11 U2.12 
+'I2C1_SDA' ; H3.1 R12.1 U1.13 U2.2 
+'LED_B_B' ; R14.1 U1.5 
+'LED_B_CON' ; H4.3 H6.1 LED2.3 R2.2 
+'LED_B' ; Q2.1 R14.2 
+'LED_G_CON' ; H4.4 H6.2 LED2.4 R1.2 
+'LED_G_G' ; R15.1 U1.8 
+'LED_G' ; Q3.1 R15.2 
+'LED_R_CON' ; H4.2 H5.2 LED2.2 R3.2 
+'LED_R_R' ; R13.1 U1.7 
+'LED_R' ; Q1.1 R13.2 
+BUTTON ; H3.4 SW1.1 SW1.3 U1.10 
+GND ; C1.1 C2.2 C3.2 C4.1 C5.2 C6.1 C7.1 H1.2 H2.3 H3.3 LED1.2 Q1.2 Q2.2 Q3.2 ,
+        R8.1 R9.1 SW1.2 SW1.4 U2.1 U2.4 U2.6 U2.8 U2.9 U3.2 U3.3 USB1.6 USB1.7 ,
+        USB1.8 USB1.9 
+ICSPCLK ; H2.5 U1.18 
+ICSPDAT ; H2.4 U1.19 
+INT ; U1.17 U2.5 
+MCLR ; H2.1 R10.1 U1.4 
+$SCHEDULE
+$END
