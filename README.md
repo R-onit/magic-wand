@@ -13,6 +13,6 @@ Developed a 4-layer custom PCB for a motion-controlled RGB LED lighting system u
 - Full schematic and PCB design files created in EasyEDA  
 - Firmware development ongoing
 
----
 
-## Repository Contents  
+
+
